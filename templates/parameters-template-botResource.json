@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "azureBotId": {
+      "value": "<botName>"
+    },
+    "azureBotSku": {
+      "value": "F0"
+    },
+    "azureBotRegion": {
+      "value": "global"
+    },
+    "botEndpoint": {
+      "value": "https://<appServiceName>.azurewebsites.net/api/messages"
+    },
+    "appType": {
+      "value": "UserAssignedMSI"
+    },
+    "appId": {
+      "value": "<IdentityResource_ClientId>"
+    },
+    "UMSIName": {
+      "value": "Universe2023CopilotId"
+    },
+    "UMSIResourceGroupName": {
+      "value": "Universe2023CopilotRG"
+    },
+    "tenantId": {
+      "value": "<IdentityResource_TenantId>"
+    }
+  }
+}
