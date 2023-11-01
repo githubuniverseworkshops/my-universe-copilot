@@ -28,6 +28,8 @@ Please see the main workshop repository [`githubuniverseworkshops/workshop-build
 - The [OpenAI API](https://platform.openai.com/docs/api-reference) is used for generating text summaries
 - The bot is intended for deployment to Azure
 
+![](./assets/OverviewDiagram.png)
+
 ## Preparation
 
 The VSCode Codespaces image ([`.devcontainer/devcontainer.json`](.devcontainer/devcontainer.json)) has been configured with the following tooling;
