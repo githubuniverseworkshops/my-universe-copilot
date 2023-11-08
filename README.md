@@ -54,6 +54,13 @@ The VSCode Codespaces image ([`.devcontainer/devcontainer.json`](.devcontainer/d
 :hourglass_flowing_sand: **~3min** 
 
 - In the newly created repo, click `Code` :point_right: `Codespaces` :point_right: `[ellipsis menu]` :point_right: `New with options` :point_right: _Ensure that `Dev container configuration` is set to `Default project configuration`_ :point_right: `Create codespace`
+- ❗If you're having problems launching the Codespace then you can also clone the repo and continue from here in your IDE
+  - There is no need to push changes back to the repo during the workshop
+
+```sh
+git clone https://github.com/<YOUR_NAME_SPACE>/<YOUR_REPO_NAME>.git
+cd <YOUR_REPO_NAME>
+```
 
 #### 3. Configure additional tooling 
 
